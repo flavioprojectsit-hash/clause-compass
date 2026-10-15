@@ -1,0 +1,52 @@
+[
+  {
+    "name": "clause_compass.py",
+    "bytes": 14799,
+    "sha256": "b489113024439c656a58d0c56693797c2848c9d51fa8c1baec64ad456aca7870"
+  },
+  {
+    "name": "infer.cjs",
+    "bytes": 3097,
+    "sha256": "dae2d111396fb945bf8b848c7635b4a4f2705a70cbf3b43510e9c546d1a63a7f"
+  },
+  {
+    "name": "setup_local.py",
+    "bytes": 2791,
+    "sha256": "9112a70d6b7ceb30b874f46ad95d3c2ee2cba96ed7f548dd56c30c32083db626"
+  },
+  {
+    "name": "README.md",
+    "bytes": 5478,
+    "sha256": "5ec1bc1e90e42ccb0ea8a729d16338914478d0fd906199c7c766750cfc6cbb58"
+  },
+  {
+    "name": "evaluation-cases.json",
+    "bytes": 6702,
+    "sha256": "17b91134095fb4d161f50f162c0f07c20035c1bd4ac4acd3156109ec2f5f68c5"
+  },
+  {
+    "name": "example-brief.txt",
+    "bytes": 710,
+    "sha256": "f3234ab565bac54d1a652641fa653a267fadde110d92114d3d8e1ccad4e9a040"
+  },
+  {
+    "name": "demo-result.html",
+    "bytes": 41902,
+    "sha256": "0404703c967f932a6c02a9a25d7f81d61dbd0d7273f81f928519fe9ea40857a7"
+  },
+  {
+    "name": "demo-result.json",
+    "bytes": 9500,
+    "sha256": "b6b7535d95108ae1b9df80b0a69588435ed68ac19091ee3b2bbdb6c8ba50ad40"
+  },
+  {
+    "name": "demo-result-passages.json",
+    "bytes": 33529,
+    "sha256": "0b455cb2be3ab53e17ebefe6d19067bd2dd4b61416686334c958fada38f030ec"
+  },
+  {
+    "name": "demo-screen.jpg",
+    "bytes": 75863,
+    "sha256": "a5f112f50a614a5886b1389981fb818082539eaf0d8b4ce69caa33a679e6ec07"
+  }
+]

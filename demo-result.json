@@ -1,0 +1,466 @@
+{
+  "model": "Xenova/all-MiniLM-L6-v2",
+  "revision": "751bff37182d3f1213fa05d7196b954e230abad9",
+  "runtime_version": "onnxruntime-web 1.30.0 / CPU WASM",
+  "providers": [
+    "CPU WebAssembly one thread"
+  ],
+  "seconds_for_queries_and_six_documents": 1.8695049000089057,
+  "documents": 6,
+  "questions": 30,
+  "answerable_questions": 26,
+  "top_three_hits": 25,
+  "top_three_fraction": 0.9615384615384616,
+  "required_fraction_fixed_before_run": 0.8,
+  "missing_answer_cases": 4,
+  "source_text_exact_all": true,
+  "answer_presence_not_claimed_all": true,
+  "wasm_fetch_disabled": true,
+  "wasm_fetch_attempts": [],
+  "independent_playtest_or_customer_validation": false,
+  "checks": [
+    {
+      "document": "studio-brief",
+      "question": "payment",
+      "expected": [
+        2
+      ],
+      "retrieved": [
+        2,
+        4,
+        1
+      ],
+      "top_three_hit": true,
+      "text_exact": true,
+      "answer_presence_not_invented": true
+    },
+    {
+      "document": "studio-brief",
+      "question": "deadline",
+      "expected": [
+        1
+      ],
+      "retrieved": [
+        1,
+        2,
+        4
+      ],
+      "top_three_hit": true,
+      "text_exact": true,
+      "answer_presence_not_invented": true
+    },
+    {
+      "document": "studio-brief",
+      "question": "ai",
+      "expected": [
+        3
+      ],
+      "retrieved": [
+        3,
+        1,
+        4
+      ],
+      "top_three_hit": true,
+      "text_exact": true,
+      "answer_presence_not_invented": true
+    },
+    {
+      "document": "studio-brief",
+      "question": "publication",
+      "expected": [
+        4
+      ],
+      "retrieved": [
+        4,
+        0,
+        1
+      ],
+      "top_three_hit": true,
+      "text_exact": true,
+      "answer_presence_not_invented": true
+    },
+    {
+      "document": "studio-brief",
+      "question": "eligibility",
+      "expected": [
+        5
+      ],
+      "retrieved": [
+        5,
+        3,
+        4
+      ],
+      "top_three_hit": true,
+      "text_exact": true,
+      "answer_presence_not_invented": true
+    },
+    {
+      "document": "prize-delay",
+      "question": "payment",
+      "expected": [
+        2
+      ],
+      "retrieved": [
+        4,
+        6,
+        2
+      ],
+      "top_three_hit": true,
+      "text_exact": true,
+      "answer_presence_not_invented": true
+    },
+    {
+      "document": "prize-delay",
+      "question": "deadline",
+      "expected": [
+        1
+      ],
+      "retrieved": [
+        1,
+        2,
+        4
+      ],
+      "top_three_hit": true,
+      "text_exact": true,
+      "answer_presence_not_invented": true
+    },
+    {
+      "document": "prize-delay",
+      "question": "ai",
+      "expected": [
+        3
+      ],
+      "retrieved": [
+        3,
+        4,
+        0
+      ],
+      "top_three_hit": true,
+      "text_exact": true,
+      "answer_presence_not_invented": true
+    },
+    {
+      "document": "prize-delay",
+      "question": "publication",
+      "expected": [
+        4
+      ],
+      "retrieved": [
+        4,
+        3,
+        0
+      ],
+      "top_three_hit": true,
+      "text_exact": true,
+      "answer_presence_not_invented": true
+    },
+    {
+      "document": "prize-delay",
+      "question": "eligibility",
+      "expected": [
+        5
+      ],
+      "retrieved": [
+        5,
+        4,
+        2
+      ],
+      "top_three_hit": true,
+      "text_exact": true,
+      "answer_presence_not_invented": true
+    },
+    {
+      "document": "gpu-reservation",
+      "question": "payment",
+      "expected": [
+        2
+      ],
+      "retrieved": [
+        2,
+        1,
+        5
+      ],
+      "top_three_hit": true,
+      "text_exact": true,
+      "answer_presence_not_invented": true
+    },
+    {
+      "document": "gpu-reservation",
+      "question": "deadline",
+      "expected": [
+        1
+      ],
+      "retrieved": [
+        1,
+        2,
+        4
+      ],
+      "top_three_hit": true,
+      "text_exact": true,
+      "answer_presence_not_invented": true
+    },
+    {
+      "document": "gpu-reservation",
+      "question": "ai",
+      "expected": [
+        3
+      ],
+      "retrieved": [
+        3,
+        1,
+        2
+      ],
+      "top_three_hit": true,
+      "text_exact": true,
+      "answer_presence_not_invented": true
+    },
+    {
+      "document": "gpu-reservation",
+      "question": "publication",
+      "expected": [
+        4
+      ],
+      "retrieved": [
+        4,
+        2,
+        6
+      ],
+      "top_three_hit": true,
+      "text_exact": true,
+      "answer_presence_not_invented": true
+    },
+    {
+      "document": "gpu-reservation",
+      "question": "eligibility",
+      "expected": [
+        5
+      ],
+      "retrieved": [
+        5,
+        6,
+        2
+      ],
+      "top_three_hit": true,
+      "text_exact": true,
+      "answer_presence_not_invented": true
+    },
+    {
+      "document": "sparse-art-brief",
+      "question": "payment",
+      "expected": null,
+      "retrieved": [
+        2,
+        0,
+        4
+      ],
+      "top_three_hit": null,
+      "text_exact": true,
+      "answer_presence_not_invented": true
+    },
+    {
+      "document": "sparse-art-brief",
+      "question": "deadline",
+      "expected": null,
+      "retrieved": [
+        4,
+        2,
+        0
+      ],
+      "top_three_hit": null,
+      "text_exact": true,
+      "answer_presence_not_invented": true
+    },
+    {
+      "document": "sparse-art-brief",
+      "question": "ai",
+      "expected": null,
+      "retrieved": [
+        2,
+        4,
+        1
+      ],
+      "top_three_hit": null,
+      "text_exact": true,
+      "answer_presence_not_invented": true
+    },
+    {
+      "document": "sparse-art-brief",
+      "question": "publication",
+      "expected": [
+        2
+      ],
+      "retrieved": [
+        2,
+        0,
+        1
+      ],
+      "top_three_hit": true,
+      "text_exact": true,
+      "answer_presence_not_invented": true
+    },
+    {
+      "document": "sparse-art-brief",
+      "question": "eligibility",
+      "expected": null,
+      "retrieved": [
+        0,
+        3,
+        4
+      ],
+      "top_three_hit": null,
+      "text_exact": true,
+      "answer_presence_not_invented": true
+    },
+    {
+      "document": "untrusted-instruction",
+      "question": "payment",
+      "expected": [
+        2
+      ],
+      "retrieved": [
+        5,
+        4,
+        6
+      ],
+      "top_three_hit": false,
+      "text_exact": true,
+      "answer_presence_not_invented": true
+    },
+    {
+      "document": "untrusted-instruction",
+      "question": "deadline",
+      "expected": [
+        1
+      ],
+      "retrieved": [
+        1,
+        2,
+        5
+      ],
+      "top_three_hit": true,
+      "text_exact": true,
+      "answer_presence_not_invented": true
+    },
+    {
+      "document": "untrusted-instruction",
+      "question": "ai",
+      "expected": [
+        3
+      ],
+      "retrieved": [
+        3,
+        6,
+        5
+      ],
+      "top_three_hit": true,
+      "text_exact": true,
+      "answer_presence_not_invented": true
+    },
+    {
+      "document": "untrusted-instruction",
+      "question": "publication",
+      "expected": [
+        4
+      ],
+      "retrieved": [
+        4,
+        6,
+        3
+      ],
+      "top_three_hit": true,
+      "text_exact": true,
+      "answer_presence_not_invented": true
+    },
+    {
+      "document": "untrusted-instruction",
+      "question": "eligibility",
+      "expected": [
+        5
+      ],
+      "retrieved": [
+        5,
+        4,
+        6
+      ],
+      "top_three_hit": true,
+      "text_exact": true,
+      "answer_presence_not_invented": true
+    },
+    {
+      "document": "voluntary-work",
+      "question": "payment",
+      "expected": [
+        2
+      ],
+      "retrieved": [
+        2,
+        4,
+        0
+      ],
+      "top_three_hit": true,
+      "text_exact": true,
+      "answer_presence_not_invented": true
+    },
+    {
+      "document": "voluntary-work",
+      "question": "deadline",
+      "expected": [
+        1
+      ],
+      "retrieved": [
+        1,
+        2,
+        0
+      ],
+      "top_three_hit": true,
+      "text_exact": true,
+      "answer_presence_not_invented": true
+    },
+    {
+      "document": "voluntary-work",
+      "question": "ai",
+      "expected": [
+        3
+      ],
+      "retrieved": [
+        3,
+        2,
+        5
+      ],
+      "top_three_hit": true,
+      "text_exact": true,
+      "answer_presence_not_invented": true
+    },
+    {
+      "document": "voluntary-work",
+      "question": "publication",
+      "expected": [
+        4
+      ],
+      "retrieved": [
+        4,
+        3,
+        2
+      ],
+      "top_three_hit": true,
+      "text_exact": true,
+      "answer_presence_not_invented": true
+    },
+    {
+      "document": "voluntary-work",
+      "question": "eligibility",
+      "expected": [
+        5
+      ],
+      "retrieved": [
+        5,
+        2,
+        4
+      ],
+      "top_three_hit": true,
+      "text_exact": true,
+      "answer_presence_not_invented": true
+    }
+  ],
+  "retrieval_feasibility_passed": true
+}
